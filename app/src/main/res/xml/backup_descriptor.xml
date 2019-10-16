@@ -1,0 +1,16 @@
+
+
+<full-backup-content>
+    <include
+        domain="sharedpref"
+        path="." />
+    <include
+        domain="database"
+        path="." />
+    <include
+        domain="file"
+        path="." />
+    <exclude
+        domain="file"
+        path="./instant-run" />
+</full-backup-content>
